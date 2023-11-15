@@ -1,0 +1,137 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Ecran de veille
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Ce projet montre comment réaliser un écran de veille pour Windows
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : CAAAAAgAAAAKhUuwT9ahoP/UVeuPW7+Zm4b0pAWUudZ4SCVjhSfarODjji1OB2h2kD4HIi4AxhkMF0Pmo1VvVetUXHl8kmUQowYZKmZrHJkfL08Rv7jK/wrvdRpW2BeAd0rv4qUoFaXkKeQtIfOOSrCeNeJ1vLD8iPW33ajZsfkxNxRjmZ98wjRIK0Gf22OEBoeqgSv+HKHMSVVZZ/Gn+XL2QaAt5OZ/jCrHBahUsTabd+w54EBsoaFghMArp8sJHjeX+7PsLMjTzj/sSUcX5c+Cdj2c256YdIBo7AF5WHi+RstiYvU/gFdB2kaaL3PFD3/8lCGvokSD24u17izko13jeOwneGc/SU9oGVtn1nLsO2RrC7uoRtuGf6uOOYkjv6BUDqbq+rPtpS7yKNECadYAYc3Xa2mTAf2BLSzDaSP+NFJUD5qD8msuUIE5bTL406Hu1fhzIhPDKWddBwyZhPFAARP9RZsFEk/YUn4ruC28X0rUHH8mnezBsnJjN0ZLnYJRKsTT5c+t3rtgkDkft7th0d0u5B3n7DLIxfiBNMzqaWDAq7KKUY/linzPQcfVbdtpemuDF854O4zm6M5Q1qA8R+CxAlb8U2giGXUbcEXln23yXMA+HzTWmlPXX+sJXPB1CGrQOoseZzXWmAZudtbqk3HndT+DdzxATWtfCkiGIhaC2Me4BSqKjHljF1y7JwqiJcXkuf5rSOdS5ZHfTdwYgJkPhb8hj8azLd6AsmaLxNkFZD2rPA5tbvVzMoiVHNwuTn697euIUCL0JQl+9d86RTNYo6hIFcCvAzvo2toyDNR2STKEAbyjXwB4ZmwCiMTgLUBsFgtZ1/UnzmQirogwz8axiuhezwIXF+UY8gMBUcVb/B28kJ3iVV+7Ly/Xll247znPBg/vs6FmYI73uiaXpvUqz7CF5EVbKWS6335B790jD/GkRjOJ75R/V3t7MIjOaXl/bCLfM91YgvVWzF9f2FNBVl3Q3eYkIt8sTAH8KO+0FtPknBqRZVxMeoco51efqIJskLaBgm82xgdAVk1YPGAZcU0Z3zUOuPvw/qQm6Z4NSQ5qMVhvlcKoj9BYw48vLGfEL4ECiKmhlAkMcsKWsh84YplLfYaUp7/3x2hl+hORmVfHZOmBMHOheQGnCiDX4XnqUp7FshRlwT3XbM+AB+StaLE71mBh7glhEdmkBt1Pej0yDbNeHZyfO79gQbnH6ajqoDWfVfYUDAim3/NLKa59A+zZT6lxsM2+lg5BPfAvgbtV5qWJQI9XsYjdiWO3jkfR9Mv7WPdmAWJbr7roJ3F2upPgiflWQtW8ZogKe49b0/G7VttSWwLT2eZ4m/+mAmi5OOp/gBYAwp8/HQUgG+jnCptGP4Lm1QgemgMXEqUepFyHSoTVSJjUVmbOX7mbwHi8juVRX7vhkgYZNNYrpVPqChfMCr3GKtvE8CCJaTaXPXyf+ijpcHkBICyGCq5T/PUzv8XeZb53Zl4fziqT/fiLiN3IIonT11hZyWwLbSCmlz6R3A48Kk3C+42bxOCbDAl4sJ0grCHfeq/SuFZQ+ZPvGmoIs2m6Ra20xL+XgLe+tjQgCTt5dRkd/INAGlHNxTCbQEUzGZGCw8/5fp+MiEd+gFHjPHDbZEJY9Mjtnap0IWGGapZhtKP0BNujAkWprfuB6NfpRIbDsBw97UrRHg4HLGPXc4mw88KdH7/jaHAJM20ySNHtoCV9siE2qI6Xuu6w3ls3OiB806Nf1EN/6nR9EvzChVdMUvmyfkGPg/LtoGKP1o//O1QSxVBMatMeJVtHqOz/RG/vwWxJzHxMmeZXb6X3i35AqN3n/3jdkbr1S4mvKhQ2w5JBYQGh9GNesWQSSXTpDEF+Rv/rLR6QrnPGxZEC14cXNPKXsEkh
+ configurations :
+  -
+    name : WD Ecran de veille
+    internal_properties : CAAAAAgAAACwkBHsSvu8eq3JEQ7IEPupRvYnQSQbonQiH/DZ+Fyre6jFd3TeK24mG/vxWu9gJP4tbkbGlJcxk68einbM7kr9xXSrbYO9L8SzyDmIKGJfKFOBUdABZlQTdEm9jrtoLE6NBjTh2StysJ4w7CSmOAFXJSZ0ywVgPc42C2Y6OymG5sv3buuJ0SOs2naCPIHjM7ziMwmjt5KVPSnEP+XywBV/kCEHIUW3zanBQyOHr/iuXAUSpFZ3pcE/BJbWsTqpJhCpOFhKwD85FOAB1dv+9quaelfWBmPkUxy2zBThAm5ZjSoTLrwN/VOmFBgjtXJzbVp4p0fLw6eMbe/wm46DS1AqV3nxvfUYg48YjFdnZDjNC2y98vHTclWWWEmS7iyZbrnMIT+XfO6ZBiBYFde7jgfO8goY+qD8IfVZU85gkjO7Z70Lah2WMP8T1fOJ4kTDFEzlKIeSagrQ8RLDDJBR6xgyVKSm9OiIT5yHUtBxlr3Exow3L0XpPU4G9W0g30iifxPIktDUICIElB8I4B/Pxue2r8fO2R+eTis3xnSYrAvgJaX/dqzOPf4GXZiJaTQnyOYXND8bFrkZi6rOES/mwWWN794bmYTzQXeepPfNlBf0ZNQ8IAEZl/EIZnTejHDQFF/BgFbOrSJ7PMGIgmoxbdcRJ+OPlKCA/SNUrxz5de4ZsFIa+ysz3KViEXfO+3Z2QOFK0LawYjgB+4+DBjBzgqqQ8x9Bjr+zUEHHObi9S1JdMf2iOtlpalbPLnuzCU5Ol4xWMC0ktYMWYAZJxAtXVNTVofHIy601rmhfXycdB5f21+xcKuFajlYoAqPyIK0V7jrJUe3qZdRIWnfnEt8hStfiFRxyt3CKtzqBYO1knsVIbUxEdZE9Xe5SOVZchQyc1qjiE6P441fTrDkV2cxScc4Xwgxxtq1K6xRObih7ZpIkC8y6WcZLqI4t4vW2zSBbC2v2B5CO0oNIGfREF7aQZ5yWxCtVQyy5NWK1sLVZb+0PKwl9R4k3hUB7ykg2bsJz/wHJJ8MA7iBkWYmhrDJm5HlCHV7shvF9Ycr8uK0cTYq825Lk8ogSjAwEg+9uY31NIQQzYwZWluoYsFbc6Co3i3IwEWpRbtzAjjsliIksbIg25t1Tj6qni1JMET6CCVx5HOUzZvLIM2E9HAVwzR9hn9HDFe3hIJw0L3L7QSigGNLAZjcWQQ9Dz9Zp8diBX/A+Smb5teRpaBT3NhSpuFpB1r4nRP8/jJ11K5lnnZ17yf9okfjGRTfGf4F4ZRG+k/MN/GznvHqJUDSpEqikpJXtRRRwWC0LfwLI6ZLZFL7feS1CEIvlihq5wa6Swintwa2Lkk33TYXPdumb7taHCwSC/MFJP8PZPuo2grqn2J3XcYwwsx/mnR83BokHzeIasKgZWMhj978GBYElHkRRGIoZrgOJ3A30679qv5JxxiggRQr30SWKvMKLAE+Do1atBojQnIUn7n4Vb7/1XMBlRaY2zBSgDr/5KmyJI56J9VDAFyvmcLBlGJ94alcJvNDVCvXfKDTY3PhdK/bmtGinLT/HHszpeHWpAqKi5RKFa22EZ2KfpcB7q5PVPk/ezTkjG2xeHcIwQplFcRUQtcHInl/Pu4jNaLXDZcFEiBzcQlJw3BZOWrnnxgTMIFEKajx5226dKkkS2Ny7b5nx8OVq3a/jcPllcb/k76MUoBvl+isvLFxekGL7YcV+ZrkXyu1D+/PgDz2oxOu7hre5caGBS4el41lWbLnYdEs0O9OsvFVy28QOFrUXCaYzdsyqZKo+mV033Qs1MeZUmdhf+ilRXBRiSAhuabSiVR7ggQHplkH7mTyTR8EA//yOsUYVYuwvxLaYsj/FAHXKTV87N6sUroybtSrdlsrzCf/heUXxmetNgh3Pj/vPiD+XGXOoVGSloGvzLGvbHbRMtgCbKti9QekIUMTkNVdYfw1eGAKbk7sqDiPER0zaiAwQEe18J16nsd6fOQ10mFKOIhBnVvxc8dsI3NYZnjrlMgNVT/FIRzSxCwdUNjePvwqBxvO7jSO8aLUwCO4mhyanhLj9K/e7BOsoW5IFqEscOYdk6Gh7wLXFjHE0ZdJY+54dO7UEaK3kFtHmjUCn0Zx+V/WC3VGM7J9IZ7qGWWNdawUc+OeYvtLIV2c/OdjTgfNhg/S50WZKMpvTXI1qYP0WJFaBd5ZiuSY8RTUkbV+C+IKOyV1dFcc831VyWTN7ebUhfXrNUQ0mlwVSxCcTpjW/cq0CVJgNtaTvsSoaSoZd6aZ6LJQAMZJY00gEQNQJEo0CURX83zAmXBnzYp5L6K2D2lubX2kQnZ7GgREDM05jLKpq6+fbdxKnb24CJHMSlFCn6WAtza/hoNHjWKuhbcc5MAY/xmURQAZ+AFhapA5jBG8CBBPe4fNCwG5nxsdUlaf5TQI75NT/90ouyDmh0r2y2BNAUVDJrUBHXPFChGKV+P+ZqOtpFH4Z4ZPH8N6b0ep2FKfninR1WsObYw1nNSdGvfXe41DX0+xQwN7j3g9UAXtNiCWfCcRyFO59sWbbsDc30VKwAMGcGiUd7WTZ00sL/V8BKWpBqphxh8/0dOhl7zXOH0WbAsiZITaIYNdW01JIyPtTIv63kf3ze1EceyklsiaXM7ibOKvbFjsL05RrDkiEog5LB97hVOG63j/ZZRrTVlsuc4e8vW5ajutWCxHYL5GoMmjD4WpupCwWTNE5vHTZT0vmfoEW4gqy3n0XNZ+bhfwTkvWFSK6WMUZcJUDxsLGCKDS3e68B5WrM4qWZoniVnDJZrb6j1TXJ71t6cisSXp/tksls46VDT1oQhYZNQSJb2dcMPju9ERv5XLnYqwo58MfXtW5OkFnxV15vJiUOYm4Qi4ZUdtBg8cPLSyhKQsIPnzES3a/8wpBABilnvanx2tGu7TZy93MM3s8o3+Av6Ysunkheg/Fw0nc3T6OQmbfZhfUMS+oS27nnAdYQNL+GjVN7FA1X7jr6ijsoAsKU1CHjXWa7Zx0oR1sTqlNoDPjWjOSYDU8KOb10/XrXFCsTQ/K3ni9LCYc7Xx0ylCjs3vH/YVnSt02S2NwjihWWasGSyS0HBHHJF+1XacYdpqFP5ZwaLdzPoQC6FsguP/8nqN6q0UPMqdUI8om7XD3P//nkcjnS32uWWvfkmo5NJdgXElUOQZQttYaCPjOWZPzuiiyFBWE8I/SyYv79GnMiinK3L9qOG0WBt5w9RRecg8GUr1Bu8U66MpWUHI9LAfwGktAc8hgg65IKMITJEnc1gUXNVa12uxcQmKUQ3k/p5p8gc7YZbBvEqLkoELSlq4Z38TgHEzLxAEOfKX2WWlHe7JKQrsAlRncg8M8nVxoAb6D0K16Slf7oNJOr+BkKOBEt+9blJSnb0psQUunpMqy9B3t2BLaEAUyuamJuzJmGXZMoIUUpPJcepLwr5Tk6GLT3aUaoPsBx8p/VY4KvLJboHKHzy6VkkW6uGqoa2BpVhEXPRgmw8wf2flSijtRYhtpajs8+ov5lDgZZBZ76Rzjfwbj82jlzGGSeEkdkImtI+z0rDqh12CQz9REX5UfPi3qzWaOE8qQM1aY1Ta04QaCjy/Z4nvV3GJo2CjpCINfAB8JYywCKzTCsxtESnjKU3O8oMPxBea7V0rfffVtLxN+CZO42yNIS60usnDejM5lwo12UlTiXkmCQSJtwuI3ZWQkeomB+iIDX/I3PyWkoURboUPEV9YU4FaHkdNE4/tCc52Kuye9RZEKJY/kGMgwslLTpmb0u8to79Nkvk+hM3ehBMRQkpnSwIXkTFcXtXVkftml/5gAYi6lgessxH91HSTvbVZ9Z6zxZvnR9edK2a7nWyMDWtASh0uWIhLrGbE4ABatX2Oaz0kqX57NAyLAcFp6kXHiukoMXgCVza7lXTILfrdh2kOPAOQh+qiesM+qo53lX9E42JcpI9tzaVswKdilppygEcNf5XM0uhFSWu0jjkf/fzyFg5amoBEBsqssvqE8tTCvvKvCVpzxMJDDDYlH0lFnezkCCxTRo+NAOVzH8yv5R2aG87erO7pLXs9IPEsydkPsXku4v42TgELUhBTwts1GLoUsJosKprc6BfjLY3qrqNNzvUAph1zn9seLNTPh6IwoEi5WwHD79x+PwxtjYRBy6Xh41kBtXeY9NNjBu5u78upg5kjs5x4USwLCCeRSRIv6wLw8CbI8cOP00TqSMWEcRe0/4mLxVgx6u81+gXukKZTE5IoE+0gE/j7wABdmVXFuls/CTVCSV284ckAD94OpVSyLCR1Zsp/BVahpB1XOQIj9ALbW5C/0Eyowr0ASpPpM3FnVcIDG+GmGThZB0pED9+RyydxvozqVxdlM6WPPmPB8nWP0SG2bsrqjD1i8oV6phaMJ19Yp3RTFs8CWY8EJPCXagHIUtK8GhihX+hP/z0+M8lAxa3mz5sRT8/AYzfiOZlBMR5elRO0n4ZtrvLahzrzesCY5sPhQbV3cYlDTBqrT5BmMB+5akxoHmLdqDUlzDJkgE1na0hNfCEiq/DrZHn/etoB3sheZztP9E+slxWunyD0lFGPneSY/EFoHaaVzBeEY12XHiu3jA8Dsy+jGmfwDMKCWHkxp8+M9Kl/wjJ31vM3eH5rbWUXWuZO7F+FKmmfHY7lfbYX5cEq+Bp/ad6+udvu1BSGgwBYIZTzHAThtdllIGMm9UgmhCLV+cKU6IrwBi/dtblYp4EJ8XPuUE6TRVFclna7QGw8HldOX23GWFnqjICYZcDxvGpwr6SsnXHXqezlocNLPsNKilMIafu8abiGVrQNbZzoTBLxeF0erJDuJn+V/6CDMjH7NmT28JRK/mPsxJn63/QBRw/dpv+Su/uTjzXV7Y0GXn1n2iNbwC0lbJJFKAQ0Is9do9Xo0IJgIZDh3aE4446ZNKQ6ubOQtsdw==
+    configuration_id : 15866129301989930653
+    type : 1
+    generation_name : WD Ecran de veille.exe
+    version :
+     major_version : 21
+     generation_version : 4
+     internal_generation_version : 5
+    icon_filename : .\VST13120-32-5.ico
+    language : 1
+ elements :
+  identifier : 0x4ac47ffe00138ead
+  elements :
+   -
+     name : Procedures globales de WD Ecran de veille
+     identifier : 0x456acfee000070c9
+     internal_properties : CAAAAAgAAADBvTltWgcvwI9eAStzccAGMbLsPJpN2y+PvcSmGAcX8R/Nh0vGM/Hp6FJMtHx0DPzETA==
+     physical_name : .\Procedures globales de WD Ecran de veille.wdg
+     type : 7
+   -
+     name : FEN_Prévisualisation
+     identifier : 0x456ae27b0004e86c
+     internal_properties : CAAAAAgAAAAEAmxIdyyEp7BDNnw0E6PFTNlLg0mcPT2PnXiqko2PCfc71/sV7Kge3UexD5dJMacREQ==
+     physical_name : .\FEN_Prévisualisation.wdw
+     type : 2
+   -
+     name : TEST_EcranDeVeille
+     identifier : 0x4a098ee70001ff59
+     internal_properties : CAAAAAgAAADwTih0s+jA2+RnOkDYWPPltOszK5Om0a6jLJ97Ua5u+vLsAjDh2JwSwXtlU9MN9evVXQ==
+     physical_name : .\TEST_EcranDeVeille.wxt
+     type : 17
+   -
+     name : FI_EcranDeVeille
+     identifier : 0x456ad35d0002daaf
+     internal_properties : CAAAAAgAAAAQ7khUUwggO4RHGiB4edNFkNEvN4mUVKKvpTogLMNR39nJYVHBOPzy4VtFs3NtFYt1/Q==
+     physical_name : .\FI_EcranDeVeille.wdw
+     type : 8
+   -
+     name : FEN_EcranDeVeille
+     identifier : 0x456ad3950003b4e3
+     internal_properties : CAAAAAgAAACV8f0hnvuz7Pt6PUffIezyve7omDbxH1OvtTQuAA8HGe/tBzvq150VxH54QMAwyDiAgA==
+     physical_name : .\FEN_EcranDeVeille.wdw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\description.gif
+   -
+     physical_name : .\description.rtf
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABXfpYS4/ke+RHOuylSsjpjNgg2hLlP1j07CBIEwH+bx9C9kbkmHRNflFcEBTciKcbnYwlPChtYq3rbayyFue92BtpcxlVyNEYu7yl44EA7AvyhwAQ+YmTzZq/aFqqkd4lOcsXNhzIiAWd5qdJvvhhc9ya+UmTZWi5nXLDF59HYWw==
+     code : |1-
+      
+      quand exception
+      	FinProgramme()
+      FIN
+      
+      EXTERN "winconst.wl"
+      
+      gbModeEcranDeVeille  est un booléen
+      gnLargeurTousEcrans  est un entier systeme
+      gnHauteurTousEcrans  est un entier systeme
+      gnPosXTousEcrans     est un entier systeme
+      gnPosYTousEcrans     est un entier systeme
+      gbModePrévualisation est un booléen
+      
+      //
+      // Initialisations
+      //
+      RécupèreInformationsEcran()
+      
+      // Si l'extension du fichier est un '.scr' on est en mode Ecran de veille
+      gbModeEcranDeVeille = fExtraitChemin(exeinfo(exenom), fExtension) ~= ".scr"
+      
+      // Traitement de la ligne de commandes
+      TraiteLigneCommande()
+     type : 196608
+   -
+     code : |1-
+      //Ce traitement a été généré automatiquement
+      //Il est nécessaire à l'exécution des tests automatiques du projet
+      //car des fenêtres sont ouvertes dans le code d'initialisation du projet
+      //
+      //Ce traitement n'est exécuté que pendant les tests automatiques
+      //Il n'est pas utilisé lors de la génération de votre projet, ou lors d'un mode test classique
+      //
+      //Scénario à exécuter lors de l'ouverture de la fenêtre FEN_EcranDeVeille
+      PiloteFenetre(FEN_EcranDeVeille, Scénario1)
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Ecran de veille
+     identifier : 0x4ac47ffe001a8f77
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

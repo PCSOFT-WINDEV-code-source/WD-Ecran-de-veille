@@ -1,0 +1,101 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_EcranDeVeille
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_EcranDeVeille
+ identifier : 0x256ad3921704aae0
+ internal_properties : CAAAAAgAAACu65IZH0VJi05X48Vbd4eef531KukcUj+tbTzdkPLVxcT6zOJMYj10m8Q9K02Rw3QMKgoZpgyj2Oam7OJg1TS9x/Eref1Ac9/2ydNA9sbg8tlVBDTA4/T59nfGeejZQaHp8U2HihqC5ZCQc7r0ydyaL37oj9eOLaobax6jaaHxDbyxt0XLCVbRlnbenHZaOVXtecnhJ5kYejsDdpf08G7Q+ACI+LuCOs8f8X0FzWvPoaslAYBfdCsXg9i3fbvbVzC4Ygwk4GTVohI0EAAEP2pQ2fKFJ6R5FNiTEzIKhdhgwxd9y2KqUj6fxe1u4nMNb9Sr9OjdYcASKQIwGPRHJ0ME216PiIoEqh7iysoep6jh+kFLKfeu4/uTvZmOB8bkGz9oo6C+Cgi+c46xN6tRYZ+wd+A1uHl3AgXDXPjVqUv4kTABOYWYUuUOmaqQjmphTHsYESB8/H15I4M7q30Xkzi62FKEuh54rZCu0i3VLFJbnz+K0ElP6hHhwflxaUk7+sQ7ru3xgJqDETAz6Xs+/UU4DGtjWhsB+/iEtwcGK5F+uUgA0DJpk7oR1wf4YUsGfpL/IHg+F8NZGaMu3bg4kH/91wZEoeYip6Jx7Ed+kI/VptBH1FboaEfsJmGBROV5z9IeIDuOc2deJQiJiYQe2Zz/W1LfNyIHKsXhpN28/1bPTSga8gY91HNkZPfeT/gXRayG5wUjblglRpnCGB/Hmk7SWVhlGoa7YEj46AdasVq7/HyqIfMqWzoRn6fWzHhoeWif4jY8AwSWr/g+JWVJVIma
+ properties :
+  width : 800
+  height : 600
+ controls :
+  -
+    name : FI_VEILLE
+    identifier : 0x256ad3b1171b2540
+    internal_properties : CAAAAAgAAAAN7KEcu6xcGGhU39i8k2PxhgFZdYDSmU9E7eHtZOqJzaJUuz4hR6987h1wG9nQTUXTr2XNdYb+cXMjhAJdcHxlnpp7bwXHHl0QxVJTkeuuV8Swwyb9xDPgf7/SKJdXhMEXaPjB2QrgTfLhOpTOuijKVz87MtqgrtrRt+Mb8TfW+JcQSDajvSwgs7UjLpVd5ArPyzTy7ivgYXwMul/qjFSajqq51rF3bWzgUxnivO+Set+Nm7eh4al8aS9wP3SvQuxZ0p9LpIGhJi9MSSQ/IzQ+JVQwhZZu1l+/yncFygA6t3it9M/JJXZ0OjKkUARIkmpF2SGGrhFo9HywWqYU7sCrt7nMOV2+0mKsoxGxlooCGJCf8mZ9bjTT/jelR94sQ7/vvYi4f+v/F733kEFCasJ6KQSgwV6CR+j+ieRuafimxFHyZZWmiSGDmlo9LSdFhkw/FMS9kOzmfJCzLZ6GYFUK+exNL80bMrMGw2tn5LdarIIugQHkzwXI5/mp8PsM+eF6EX1XvbeRm/jPHAdmhgISBw==
+    properties :
+     width : 800
+     height : 600
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes :
+      -
+        type : 33
+        enabled : false
+      -
+        type : 234
+ menu :
+  name : _Menu
+  identifier : 0x256ad3921706aae0
+  internal_properties : CAAAAAgAAAAbGq3Z9ozl+igc5g0VMUW1JVI410Rjco7gjgaLOHilSlRYrwpaqnhT/zQpzq+UCCgorc9d4NcsSNx9aSy636SgPjzOlEIemI0dcMJWD++57kwFLZBLJMNyTNxa7PvxlL1ndq8H6uyJKlh6HjLGyWOcoBSRIF3t5FEdlccSpbMZuXYXJPiz8PA9ISLiDcDjTnyMIkhOuSWa+hmXJsbsnDhMYX4VwSftcilYb6T/vHtkx/mCSuX6TMJQiow/iJIMmNwZp+GX6XKlHjZnQJx3YinTi9Rw6sda1RKiIVLbUA5k
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABbQyvyRSYGdwMqtgQiY0eyZHY8CJVCbvA6OSjvU4Mjo9g7K/z+S6PkWt206RIMVclum2pQ3B5kv4Tl9e+EbHJ0rQxjuMUijIZzrvmUB6CT228/CjjN6if+OifZj8fu
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      // Cache le curseur
+      CurseurAffiche(faux)
+      
+      mafenetre..x = gnPosXTousEcrans
+      mafenetre..y = gnPosYTousEcrans
+      mafenetre..largeur = gnLargeurTousEcrans
+      mafenetre..hauteur = gnHauteurTousEcrans
+      
+      FenTaille(FEN_EcranDeVeille, gnPosXTousEcrans, gnPosYTousEcrans, gnLargeurTousEcrans, gnHauteurTousEcrans)
+      FenEtat("", DessusTout)
+      
+      Multitâche()
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     internal_properties : CAAAAAgAAABkYxCOAWHWSEcmS47+Q4zr76DFeUhRJGaNs29bIcM+i9P48K1hoWenUlLTUcG+n+jT4Jtjp2sXjnWCcDud5gVpkt1ArZhMBRqjw7AWM4YjS6jH+jMDU88Vva+NPKIVwCdEi8l9zIuOl9Q91Q==
+     code : |1-
+      
+      // Réaffiche le curseur
+      CurseurAffiche(vrai)
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1fbe22c30517f2a1
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_EcranDeVeille.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

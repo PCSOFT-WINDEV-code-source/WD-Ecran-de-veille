@@ -1,0 +1,151 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Prévisualisation
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Prévisualisation
+ identifier : 0x256ae27b1b52e86c
+ internal_properties : CAAAAAgAAAArdQaGafDjeHzE9onmfLR/MTkOu5mf3mJE4K1zjsb/NCGOxr1i7BQ5aZw0sb9gV6irMpKyf6jCbqdE3K97ZT7yC9W1GC/psr7N9UmAO2qi/A5jwMYYCbfzZdjY0ypJ3m6G9GHKG5kPLg2BwD8/v6Lm+ck0lFSVQImT35XXFTZOovh+Vb19gnnyur1G3lbuqp/kNCO4wHaTStAW8Fhg0BYCSt4tll4l7mHJDJ2sVhYaIfTg82doxMKkQwmGyreSUUhtvVATdbM6uMbsyKCpAtCnEWzZVZSnpnOZ83J6h4281TOnDc7t11TB1mHcARq9muysxCYHZnS9QjznHnBpxbK/OFHkDj/qdy3rP10DDwQzJNq5UVn8BG+OiuSlemFZmwDKyYcVS1AVU7v3fmtvojwv7oYTqKybvPy3ium+RITTnDNl9LmCZ1a7tK79Tg68fSR9AxtaLbfQpyndZPZnPUtUmfUWQjX368WNYkFMMVoc1Mh86vtJgd8DebQZgOcrvZ1oCGTo3YpaX+WZdrKY7+6VlIQNpBmCrbOBSl2IEsVXRBiTMKHyugB7viEDvZKjyML+JXQzFcj+8IeO/bm3W9WfyzGkyEum4VaR+VesIK24DhTY8zSBdaubu/l2qnJqXKFS63EjxIMrQ92nLjh3S5z18VAvnCcdG3SmzhqHl+e0E9CfSWCjwtFoIVcLzyQ44RtooJyeIsVshStPoEO6dlU8m2cIHp7V7zxi6Q6dTm6z6q9yjKzHgFcvKA9zZun2ES3OAUF1RYTUMIBgARuF2r2gZIAOlCbPx2cB
+ properties :
+  width : 800
+  height : 600
+  widthMin : 0
+  heightMin : 0
+ controls :
+  -
+    name : FI_VEILLE
+    identifier : 0x256af04a42ced7bc
+    internal_properties : CAAAAAgAAADJKKWjcOdBqzxWmPLp2IlaOKRejg10LejFguP74/fAXKnNFEwzlE6DVfmrgDEhvenKwSsBr4my5AC3OXcmswWQeM96FT2OX/sx7Idz6yjoy/8q2NiqKt7lFcP0XEhyIP5W7KsfT3DQh66YOTgYV+ZSij6mtOguzwYStlf3nUuo3GuGswsxbqlFxyHL0x7sw1gFIwW24KDunp6z/B/i+zi8M18MWy4DToeuEtEX3V/NR5eEeBWqTeG22HprEPyyhuBNItjs99hA2ij35McC2l5c0xPvDG5qKaqqXENm7FyCUO2wCA/g8lC9dijgc6Yo4mPR643kGvaZW6ZwIUhb2ppx8nfkr3G8SqkrbvLo7Lv8wcox+3bRWVdT7cr8TdlNXfHSHDUpXpVe2bjq6tqyko/eRk4Zfir5FpW6x0YHvfi9fEJ5aPogCz9iC0nA3jMKs1b4mAwiPTjwrdQ8p0skqdxjE6+OwHx9VtMacrTGms+ZRmn2y4wA8Pgf+eZGAuBgsJ3th7jp9jf/eQVT557K
+    properties :
+     width : 800
+     height : 600
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes :
+      -
+        type : 33
+        enabled : false
+      -
+        type : 234
+ menu :
+  name : _Menu
+  identifier : 0x256ae27b1b54e86c
+  internal_properties : CAAAAAgAAAAbGq3Z9ozl+igc5g0VMUW1JVI410Rjco7gjgaLOHilSlRYrwpaqnhT/zQpzq+UCCgorc9d4NcsSNx9aSy636SgPjzOlEIemI0dcMJWD++57kwFLZBLJMNyTNxa7PvxlL1ndq8H6uyJKlh6HjLGyWOcoBSRIF3t5FEdlccSpbMZuXYXJPiz8PA9ISLiDcDjTnyMIkhOuSWa+hmXJsbsnDhMYX4VwSftcilYb6T/vHtkx/mCSuX6TMJQiow/iJIMmNwZp+GX6XKlHjZnQJx3YinTi9Rw6sda1RKiIVLbUA5k
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAA3ARHkcJX73LcgKJDKsN7wrSshDrlhOyXPCSmfVQCY7o0elaRtOVFTyjTMDK0O0N0XEvb3D6qaWeIXGhsnOVPxlMNXemwNZgzWtWxyVj4FLs8Ebn6rFzlMF0prcA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAA7czNpPJ1GmXfS/g7FcSIGY0ih80FMRhB7b3Np1iLkmiCnlMbToPdf/lXofB0uEJH8DexT+ac5GX8q0cQ+s1EYGcTVWerm4orzSURIwXnnir8xIyX9qM6ztZXxcueRe1l5anz6Sjpyo3z//c+L3NHNv6lGnoIA4Rh0mJ9sXXaM
+     code : |1-
+      
+      gnHwnd est un entier systeme
+      
+      // Récupère le handle passé en paramètre
+      gnHwnd = Val(SansEspace(ExtraitChaîne(Majuscule(LigneCommande()), 2, " ")))
+      
+      vcRect est composée de 
+      	nLeft   est un entier
+      	nTop    est un entier
+      	nRight  est un entier
+      	nBottom est un entier
+      FIN
+      
+      // Récupère les dimensions de la fenêtre de prévisualisation de Windows
+      API("user32", "GetClientRect", gnHwnd, &vcRect)
+      
+      // Redimensionne la fenêtre
+      MaFenêtre..Largeur = vcRect.nRight
+      MaFenêtre..Hauteur = vcRect.nBottom	
+      
+      // Indique que notre fenêtre devient une fille de la fenêtre de prévisualisation de Windows
+      api("user32", "SetParent", handle(), gnHwnd)
+      
+      // La fenêtre de prévisualisation de Windows reprend le focus
+      SysDonneFocus(gnHwnd)
+   -
+     code : |1-
+      
+      // Vérifie que la fenêtre de prévisualisation est toujours active
+      VérifieExistence()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+      FinProgramme()
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : VérifieExistence
+     internal_properties : CAAAAAgAAAA/Yvn9LpHWpV0fopM4k0TQWNdjmlwVeFnkIqlof0YwLR5fOBrl9yIZKF/k/BzT/UMIaQ5A9LSzjH5Tgqw8wMoOmmtUNJ5kva8/Aet4VBaYGQLEzbxi8UcmHIaqAf9fXpZBztJ5S35v3XNFXPOdjwdPHb33LuVMxRpUUmRN9uU+EBwmMCe6e077oP6PGRTDbkSt01/R2p729oQUr3waEzikjvB8
+     procedure_id : 1543301652059462807
+     type_code : 14
+     code : |1+
+      // Résumé : Vérifie l'existence de la fenêtre de prévisualisation de Windows
+      // Syntaxe :
+      //VérifieExistence ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      //// Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code
+      // Elle sera répétée en boucle,en attendant 1 centièmes de seconde entre chaque appel
+      // Un nouveau timer est créé pour chaque appel à la procédure
+      // 
+      
+      Procédure VérifieExistence()
+      
+      	// Si la fenêtre de prévisualisation de Windows n'est plus valide, on quitte
+      	SI PAS API("user32","IsWindow", gnhWnd) ALORS
+      		
+      		// Indique que notre fenêtre devient une fille de la fenêtre de prévisualisation de Windows
+      		API("user32", "SetParent", Handle(), 0)
+      		
+      		FinProgramme()
+      	FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1fbe22c30519f2c0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Prévisualisation.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,258 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_EcranDeVeille
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : Ecran de veille
+ subtype : 0
+window :
+ name : FI_EcranDeVeille
+ identifier : 0x256ad35a1250ced8
+ internal_properties : CAAAAAgAAABXGMIVzBuMH7m1wqiV6hsW4KH07ZOTwGT652syVMJkfrGo1WxWx5o/L4+vRfUgu2tWVD3jC7iLhdAvfV+XrA++uO0ZXm3u0IMz85FzSzB0GY5Yv+aZ2Rf/wz0ifmwELl3FWN3oeBIrbXQ5bMB+wz5tgjeo/Xs26eiLEJYPXCzNhHDK3ndfRCV9bVBtPflEbmRGlciPz40Ii5bzwYt+GgWwXXKi/HhGUFA26OtppvYJ2AD6/vQXHXXnrBSANJk4TWWPkaaSnrcMQw3ZgKjwRBs1/S2UipeO6b4pfmYs+6GR5Mb3r8DyWHFswFtURtJCh2PO0SZzvcRPHw15GroUSW14Z0u97UF7l09RjDgvYCuoujuHMVw+4gPTA9t357EDdmQugIEUqENQI+O0aCqgqn3cK2w+eOT47TS/d6V3YdCJhSTV3QeXaL0Ram564en9DuaFFhBH1fV+sOBaV6lo9nG37i8s7E9okP2ysfbjn3AlMo3vBIN+tgs6nQou/eiaBh7GeresuOLXsblfCMgA9EXF4Ys5KpKuxsu2jFT4gmSwIY2xFMZUGgheTWXiMgk145q5M68t1z5NbQSRfdhU0NcNf1E3NZug7XEZs/TSEmrd36hC0BTwi4xk34gAPj99qxa8Xm63UqxYWpW9
+ properties :
+  width : 800
+  height : 600
+ controls :
+  -
+    name : FI_EcranDeVeille
+    identifier : 0x256ad35a1253ced8
+    internal_properties : CAAAAAgAAACZSzWLFHJhMfoOWJI1D8Pjr49wK39RQkEe8bs6TdSEK3wjfW/tDCA6KVjI58gc/ebGr5Sq+raeOku4NwqkLEKGl+X3n4dXus5XTzeYzuZp9qp3iWFXWB94Qa9B8DiOmoWNVfKGbj96dX40tdvKriohs1En2xJvz2guAyD2vZ9QfkCxe7QDxWvRRaWDYQPkjC1NKUxaJVnvFxWTrxYP9tjPodTsonPz+glIFwGXRI9Lon7veMyvA1xqfmeB/hNopY+W6wMMSraWXconjFJOyqeZUz/50G80RtDI6KrdvblPz1LvPl7/VFaze2dujGiYr2TK0dwV2yF6mZCge/csB3tXnPLJaVlLPcOclAsqMQ3no0ZUy7eyr5FF8t2aA9uqETJDD/ljCuLPTUkm20MniIQ5RT5cbyWsys0NPC8WkKt5lJKu92LecrqVOxKd6XCLwCunqlPOSmp8Ic4f+Lber4c1E2O2Fe6ftQx6ziDmAg==
+    properties :
+     width : 800
+     height : 600
+    controls :
+     -
+       name : IMG_LOGO
+       identifier : 0x256ae4331db5a130
+       internal_properties : CAAAAAgAAABUnY5igtr3TliZb67WwjRDev56vuaKyCVF7ODAsZrFOpTR34GxeOn8myctKSFrD9c+vfUizw4/OP+REeU3uuWrRQR+szmlf8UNf6VmYJO/2d0osnc0n8seKGiWGrz1IFWyarVHPkncGFjuWwnYCHB2HEe+oXPcZaYuZ2Meq5ekfAHDnwnPtMoxdnysmkVgPgZYNP+fi27GHBjlzeKKNvNeIWVG/7peT6YvV/DMgAPbqDAtYcDl31D6zM1NUzNjOzCprCA2Y3ffXp2GvrTkQT34AQiSYAHqv6TsNY98C6d1bfyg1aWrjIGoxxGa7DaAupMBbBklZRif2d+AGBqDPL2tSIOGhJAC/Fuxw+uwT4SG3NGjfn2Hqnr+RVIQS8wnkPQBe29wmmq7xG78wHxP1LXil994pi36k45y13QmDBs6uFlUPFXciWxbgZDlIoyiJlwT/f80VglpqlRTlCLfomzrR+LGaPoxA71xais9jxompr2W8Udc5Edi6nyDaYwxvI6vvz8WaawoGmG20168je3XmwZWiwhf5MppnKdIccv5MneaYTNKZq6iaG92Of7ARmw335EHSMYn5B7iSGfq7zwUZz8Fopsk7vh4VQ5n5Olc6qPcwPKrMA==
+       properties :
+        width : 250
+        height : 250
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         
+         gnCurseurPos est un entier
+         
+         // Stocke la position de la souris
+         gnCurseurPos = CurseurPos(cpEcran)
+         
+         // Clic de souris ou touche clavier
+         SI pas gbModePrévualisation ALORS
+         	evenement(OnActivité, "*.*", wm_lbuttondown)
+         	evenement(OnActivité, "*.*", wm_rbuttondown)
+         	evenement(OnActivité, "*.*", WM_MBUTTONDOWN)
+         	evenement(OnActivité, "*.*", wm_keydown)
+         fin
+         
+         si gbModePrévualisation alors
+         	IMG_LOGO..largeur = 32
+         	IMG_LOGO..hauteur = 32
+         FIN
+         
+         // On vérifie si on n'est pas déjà lancé
+         VérifieSiAutreInstance()	
+         
+         // Animation
+         EcranDeVeille()	
+      -
+        code : |1-
+         
+         SI pas gbModePrévualisation ALORS
+         	VérifieActivité()
+         fin
+        type : 14
+      -
+        type : 15
+      -
+        type : 16
+ menu :
+  name : _Menu
+  identifier : 0x256ad35a1252ced8
+  internal_properties : CAAAAAgAAADPNsfe8nRPP85Q8ZWaPhS3cm+gBJXYmWVDB2OxLHCawvMMVbraWiBVomOfBsqkL6eMx7NioLSf72OJRISgFLL3kQNoF1dRbX59UGIM1LMdvmxUL38gfdgJ4/jLbhydvvQdF+U7fB9oGuexZsl/Cb+jCbha83fj6pDCywXZuctegZf5uSfSPutfzoDsnsidKhntXo9AFZKr64zLKtt4CqzvvAx3VNvKf+B8rbsVaybkU1HLJ+SIqf0zHzzCWN2xuumzDHUrCiUE/1nlY6YrDgOfc1nUj7Ykul4COVjoqOkQMw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : OnActivité
+     procedure_id : 1543293504503622286
+     type_code : 14
+     code : |1-
+      // Résumé : Procédure appelée lors d'une activité (souris, clavier)
+      // Syntaxe :
+      //OnActivité ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure OnActivité()
+      
+      	_eve.retour = vrai
+      	ferme()
+     type : 458752
+   -
+     name : VérifieActivité
+     internal_properties : CAAAAAgAAAAAU6ulE8z2T7NxaKH1bduq4k3yAC7oLCQ7OClVongR2b4wI0npbgfPVKLmXo69L0Jt2vs0c2zzhK9GEn2ZWFLFVHq6BnYDtxhkl0mH+PFVBxQhgisBDlobpXhKoaczIlSPTBzB85eCgknjzcN5cmQoXHToMjyw/XmzmzTB91jNnqcJAQ==
+     procedure_id : 1543293504503687947
+     type_code : 14
+     code : |1-
+      // Résumé : Scrute les événements (mouvement souris, clic souris, touche clavier...)
+      // Syntaxe :
+      //VérifieActivité ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      //// Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code
+      // Elle sera répétée en boucle,en attendant 20 centièmes de seconde entre chaque appel
+      // Chaque appel suivant exécute une seule fois la procédure, sans timer
+      // 
+      
+      Procédure VérifieActivité()
+      
+      	// Récupère la position de la souris
+      	nCurseurPos est un entier
+      	nCurseurPos = curseurpos(cpEcran)
+      	
+      	// Si la position de la souris a changé : on quitte
+      	si nCurseurPos <> gnCurseurPos ALORS
+      		ferme()
+      	FIN
+      	
+      	// Stocke la position de la souris
+      	gnCurseurPos = nCurseurPos
+     type : 458752
+   -
+     name : EcranDeVeille
+     internal_properties : CAAAAAgAAACzOKsVIrYkburnrviBd0LpJNF/89VcVnOCHYdu6NlcQ9CoFgX0f54i3470nDzOXntDQhfpvQGxeQJqZzN5eKbm/WXjwkq2D/eM955d+wDdprS0rAs1ZoFebeZBtuobtSfigjCg3KUaokTtTJleoeMSOT/N5CB6UuwbnO8zstuvWiiEvFB9Hi8a8J1Bg1jtdpei43SjQEs=
+     procedure_id : 1543297666327376978
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //EcranDeVeille ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      //// Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code
+      // Elle sera répétée en boucle,en attendant 10 centièmes de seconde entre chaque appel
+      // Chaque appel suivant exécute une seule fois la procédure, sans timer
+      // 
+      
+      Procédure EcranDeVeille()
+      
+      	si IMG_LOGO..visible alors
+      		
+      		// Cache progressivement l'image
+      		boucle (10)
+      			IMG_LOGO..opacite -= 10
+      			Temporisation(2, tempoDessin)
+      		FIN
+      		
+      	FIN
+      	
+      	// Rend l'image invisible
+      	IMG_LOGO..animation = faux
+      	IMG_LOGO..opacite = 0
+      	IMG_LOGO..visible = faux
+      	
+      	// Calcule une position au hasard
+      	nX, nY sont des entiers
+      	nX = hasard(0, mafenetre..largeur - IMG_LOGO..largeur)
+      	nY = hasard(0, mafenetre..hauteur - IMG_LOGO..hauteur)
+      	
+      	// Applique la position
+      	IMG_LOGO..x = nX
+      	IMG_LOGO..y = nY
+      	
+      	// Réaffiche l'image progressivement
+      	IMG_LOGO..Visible = vrai
+      	
+      	BOUCLE (10)
+      		IMG_LOGO..Opacité += 10
+      		Temporisation(2, tempoDessin)
+      	FIN	
+      	
+      	IMG_LOGO..Animation = vrai
+      	Temporisation(200, tempoDessin)
+      	IMG_LOGO..Animation = Faux
+     type : 458752
+   -
+     name : VérifieSiAutreInstance
+     internal_properties : CAAAAAgAAABa1UbNZyCzQZoqFzVqBuuSp6RErLrDpf6QavSFZZz660YTsRQBckAt0LiqWM5mVd5cLGx1xt71ExjkrV7UhLx9V2g60iyq3zqW3roAopP8ryyxH9ezVDlG0v/aFCnKFHmZSG8lGu97JBbBfJt6tjdaw6EljDZjZv3mE3Ksq3fVSLQOyDw1VHtmAm8x9ypyK0boCeeGmTI=
+     procedure_id : 1543313175468445083
+     type_code : 14
+     code : |1+
+      // Résumé : Tue les autres instances de notre écran de veille
+      // Syntaxe :
+      // VérifieSiAutreInstance ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure VérifieSiAutreInstance()
+      
+      	// Récupère le PID actuel
+      	nExePID est un entier systeme
+      	nExePID = API("kernel32", "GetCurrentProcessId")
+      	
+      	// Récupère la liste des applications en cours d'exécution
+      	sListePID est une chaine
+      	sPID est une chaine
+      	sListePID = ExeListeProcessus(exePID, exeNomLong)
+      	
+      	pour toute chaine sPID de sListePID separee par rc
+      		// Si c'est le même exécutable
+      		si fExtraitChemin(extraitchaine(sPID, 2), ffichier+fExtension) ~= fExtraitChemin(exeinfo(exenom),fFichier+fExtension) alors
+      			// Si ce n'est pas notre instance
+      			SI ExtraitChaîne(sPID, 1) <> nExePID ALORS
+      				// Tue l'autre instance
+      				ExeTermine(val(ExtraitChaîne(sPID, 1)))
+      			fin
+      		FIN
+      	FIN
+      	
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x1fbe22c3051cf2ef
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
